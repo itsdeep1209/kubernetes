@@ -1,0 +1,649 @@
+    1  clear
+    2  ls -ls
+    3  df -h
+    4  yum install ansible
+    5  rpm -qa
+    6  rpm -qa | mgrep -i ansible
+    7  rpm -qa | grep -i ansible
+    8  ping www.google.com
+    9  dnf makecache
+   10  dnf install epel-release
+   11  dnf makecache
+   12  dnf install ansible
+   13  ansible --version
+   14  ls
+   15  cd Downloads/
+   16  ;s
+   17  ls
+   18  gunzip nw191_linux_x86_64.tar.gz 
+   19  ls
+   20  tar -xvf nw191_linux_x86_64.tar 
+   21  ls
+   22  cd linux_x86_64/
+   23  ;s
+   24  ls
+   25  ls -ls
+   26  rpm -ivh lgtoclnt*
+   27  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   28  dnf install libncursesw.so.5
+   29  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   30  dnf install libncursesw.so.5
+   31  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   32  yum install libncursesw.so.5
+   33  ls
+   34  ls -ls
+   35  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   36  dnf install ksh
+   37  dnf install glibc*
+   38  dnf install nss-softokn-freebl*
+   39  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   40  clear
+   41  ping www.google.com
+   42  ls
+   43  rpm -ivh lgtoclnt-19.1.0.2-1.x86_64.rpm 
+   44  yum localinstall --nogpgcheck lgtoclnt-19.1.0.2-1.x86_64.rpm
+   45  ls
+   46  ls -ls
+   47  yum localinstall --nogpgcheck lgtoxtdclnt-19.1.0.2-1.x86_64.rpm
+   48  ls -ls
+   49  yum localinstall --nogpgcheck lgtoman-19.1.0.2-1.x86_64.rpm
+   50  ls -ls
+   51  yum localinstall lgtonode-19.1.0.2-1.x86_64.rpm
+   52  ls -ls
+   53  yum localinstall --nogpgcheck lgtonode-19.1.0.2-1.x86_64.rpm
+   54  ls -ls
+   55  yum localinstall --nogpgcheck lgtoserv-19.1.0.2-1.x86_64.rpm
+   56  yum localinstall --nogpgcheck lgtoauthc-19.1.0.2-1.x86_64.rpm
+   57  ls -ls
+   58  yum localinstall 
+   59  ls -ls
+   60  yum localinstall --nogpgcheck lgtonmc-19.1.0.2-1.x86_64.rpm
+   61  ls -ls
+   62  yum localinstall --nogpgcheck lgtonwuiserv-19.1.0.2-1.x86_64.rpm
+   63  systemctl start networker
+   64  cd /etc/init.d
+   65  ls -ls
+   66  cd /opt
+   67  ls
+   68  cd nsr
+   69  ls
+   70  ls -ls
+   71  systemctl start networker
+   72  /opt/nsr/authc-server/scripts/
+   73  authc_configure.sh
+   74  cd /opt/nsr/authc-server/scripts/
+   75  ls
+   76  ./authc_configure.sh 
+   77  cd /usr
+   78  ls
+   79  mkdir java
+   80  cd java
+   81  mkdir latest
+   82  cd /opt/nsr/authc-server/scripts/
+   83  ./authc_configure.sh 
+   84  yum install java
+   85  cd /usr
+   86  ls
+   87  cd java
+   88  ls
+   89  cd  latest
+   90  ls
+   91  cd ..
+   92  java --version
+   93  yum install jre
+   94  cd /opt/nsr/authc-server/scripts/
+   95  ./authc_configure.sh 
+   96  yum install java-1.8.0-openjdk
+   97  which java
+   98  ./authc_configure.sh 
+   99  yum install java-1.8.0-openjdk
+  100  cd /opt
+  101  ls
+  102  find / -name java
+  103  cd /usr/java
+  104  ls
+  105  cd latest
+  106  ls
+  107  dnf install java-1.8.0-openjdk-devel
+  108  java --version
+  109  which java
+  110  cd usr
+  111  find / -name java
+  112  dnf install java
+  113  cd /opt/nsr/authc-server/scripts/
+  114  ll
+  115  ./authc_configure.sh 
+  116  systemctl start networker
+  117  ps -ef | grep -i nsr
+  118  /opt/lgtonmc/bin/nmc_config
+  119  ps -ef | grep -i gst
+  120  ifconfig
+  121  ps -ef | grep -i nsr
+  122  cd /nsr
+  123  ls
+  124  rpm -qa | grep -i lgto
+  125  cd /opt
+  126  ls
+  127  cd nsr
+  128  ls
+  129  cd admin
+  130  ls
+  131  ls -ls
+  132  ./networker status
+  133  chmod 777 networker
+  134  ./networker status
+  135  ./networker stop
+  136  ./networker start
+  137  ./networker status
+  138  ./gst.service 
+  139  /opt/lgtonmc/bin/nmc_config
+  140  rpm -qa | grep -i lgto
+  141  rpm -e lgtonmc-19.1.0.2-1.x86_64
+  142  rpm -ivh lgtonmc-19.1.0.2-1.x86_64
+  143  ls
+  144  cd ~
+  145  ls
+  146  pwd
+  147  cd home
+  148  ls
+  149  ll
+  150  find / -name Downloads
+  151  cd /home/deep/Downloads/
+  152  ls
+  153  cd linux_x86_64/
+  154  ls
+  155  ls -ls
+  156  rpm -ivh lgtonmc-19.1.0.2-1.x86_64.rpm
+  157  /opt/lgtonmc/bin/nmc_config
+  158  cd /opt/lgtonmc/bin/
+  159  ls
+  160  ps -ef | grep -i gst
+  161  ps -ef | grep -i nmc
+  162  rpm -qa | grep -i lgto
+  163  rpm -e lgtonmc-19.1.0.2-1.x86_64 
+  164  rpm -e lgtoserv-19.1.0.2-1.x86_64
+  165  rpm -e lgtonwuiserv-19.1.0.2-1.x86_64
+  166  rpm -e lgtoserv-19.1.0.2-1.x86_64
+  167  rpm -e lgto*
+  168  rpm -e lgtonode-19.1.0.2-1.x86_64
+  169  rpm -e lgtoauthc-19.1.0.2-1.x86_64
+  170  rpm -e lgtoxtdclnt-19.1.0.2-1.x86_64
+  171  rpm -e lgtoman-19.1.0.2-1.x86_64
+  172  rpm -qa | grep -i lgto
+  173  rpm -e lgtoadpt-19.1.0.2-1.x86_64
+  174  rpm -e lgtoclnt-19.1.0.2-1.x86_64
+  175  cd 
+  176  ls
+  177  cd /
+  178  ls
+  179  rm -rf nsr
+  180  cd opt
+  181  ls
+  182  rm -rf *
+  183  ls
+  184  cd tmp
+  185  cd ..
+  186  cd tmp
+  187  ls
+  188  cd /home/deep
+  189  cd Downloads/
+  190  ll
+  191  cd linux_x86_64/
+  192  ll
+  193  yum localinstall --nogpgcheck lgtoclnt-19.1.0.2-1.x86_64.rpm
+  194  ls -ls
+  195  yum localinstall --nogpgcheck lgtoadpt-19.1.0.2-1.x86_64.rpm
+  196  ls -ls
+  197  yum localinstall --nogpgcheck lgtoxtdclnt-19.1.0.2-1.x86_64.rpm
+  198  ll
+  199  yum localinstall --nogpgcheck lgtobbb-19.1.0.2-1.x86_64.rpm
+  200  ll
+  201  yum localinstall --nogpgcheck lgtonode-19.1.0.2-1.x86_64.rpm
+  202  ll
+  203  yum localinstall --nogpgcheck lgtoserv-19.1.0.2-1.x86_64.rpm
+  204  yum localinstall --nogpgcheck lgtoauthc-19.1.0.2-1.x86_64.rpm
+  205  ll
+  206  yum localinstall --nogpgcheck lgtoserv-19.1.0.2-1.x86_64.rpm
+  207  ll
+  208  yum localinstall --nogpgcheck lgtonmc-19.1.0.2-1.x86_64.rpm
+  209  /opt/nsr/
+  210  /opt/nsr/authc-server/scripts/authc_configure.sh
+  211  systemctl start networker
+  212  systemctl status networker
+  213  rpm -qa | grep -i lgto
+  214  ll
+  215  yum localinstall --nogpgcheck lgtonwuiserv-19.1.0.2-1.x86_64.rpm
+  216  /opt/nwui/scripts/nwui_configure.sh
+  217  hostname
+  218  ping localhost
+  219  ping localhost.localdomain
+  220  hostname linux
+  221  hostname
+  222  ping linux
+  223  hostname localhost.localdomain
+  224  vi /etc/hostname
+  225  vi /etc/hosts
+  226  hostnamectl set-hostname linux
+  227  hostname
+  228  reboot
+  229  id
+  230  clear
+  231  ansible --version
+  232  pwd
+  233  ls -ls
+  234  mkdir project-ansible
+  235  cd project-ansible/
+  236  git --version
+  237  git config --global --list
+  238  git config --global--list
+  239  git config --global-list
+  240  git config --global -list
+  241  git config --global list
+  242  git config --global
+  243  git config --global --list
+  244  git init
+  245  git config --global --list
+  246  cd .gitconfig
+  247  ll
+  248  ls -la
+  249  cd .git
+  250  ll
+  251  git config --global --list
+  252  git config
+  253  cd ..
+  254  ls -la
+  255  cd .git
+  256  ls -la
+  257  cd config
+  258  cd ..
+  259  git config --list
+  260  git config --global user.name itdeep1209 user.email itsdeep1209@outlook.com
+  261  git remote add-origin
+  262  git remote add-origin https://github.com/itsdeep1209/myrepository
+  263  git remote add-origin https://github.com/itsdeep1209/myrepository/tree/test
+  264  git remote add-origin -t https://github.com/itsdeep1209/myrepository/tree/test
+  265  git remote add-origin -t https://github.com/itsdeep1209/myrepository/tree/test -m master
+  266  git config --global user.email itsdeep1209@outlook.com
+  267  git config
+  268  git status
+  269  vim hello.txt
+  270  git status
+  271  git commit .
+  272  git commit
+  273  git commit hello.txt
+  274  git add .
+  275  git commit hello.txt
+  276  git commit
+  277  git config --global core.editor=vi
+  278  git config --global core.editor = vim
+  279  git list
+  280  git status
+  281  git commit
+  282  git commit -m "new"
+  283  git remote add origin https://github.com/itsdeep1209/myrepository
+  284  git push --set-upstream origin master
+  285  git pull origin master
+  286  git push --set-upstream origin master
+  287  git push --set-upstream origin test
+  288  git remote add origin git https://github.com/itsdeep1209/ansible
+  289  git remote add origin https://github.com/itsdeep1209/ansible
+  290  git remote remove remote.origin
+  291  git remote remove remote.origin.fetch
+  292  git config --list
+  293  git remote remove remote.*
+  294  git remote remove remote.origin.fetch
+  295  git remote remove origin
+  296  git remote add origin https://github.com/itsdeep1209/ansible
+  297  git push --set-upstream origin master
+  298  git pull
+  299  git pull origin master
+  300  git push --set-upstream origin master
+  301  hostname
+  302  ping linux3
+  303  ping 192.168.241.133
+  304  vi /etc/hosts
+  305  ping linux2
+  306  ping linux3
+  307  ssh-copy-id root@linux2
+  308  ssh-keygen
+  309  ssh-copy-id root@linux2
+  310  ssh linux2
+  311  clear
+  312  ssh-copy-id root@linux3
+  313  clear
+  314  pwd
+  315  vi .ansible.cfg
+  316  ansible --version
+  317  pwd
+  318  ls -la
+  319  cat .ansible.cfg 
+  320  ansible --version
+  321  cd ~
+  322  pwd
+  323  vim .ansible.cfg
+  324  cd /root/project-ansible/
+  325  ansible--version
+  326  ansible --version
+  327  cat /root/.ansible.cfg
+  328  vim inventory
+  329  ansible all --list-hosts
+  330  ansible all -m ping
+  331  ifconfig
+  332  vi /etc/hosts
+  333  ansible all -m ping -b
+  334  ssh-copy-id root@linux
+  335  ansible all -m ping -b
+  336  df -h
+  337  fdisk -l
+  338  ansible all --list-hosts -v
+  339  pwd
+  340  ll
+  341  ansible-doc ping
+  342  ansible-doc -l | grep -i commvault
+  343  ansible all -m command -a id
+  344  ansible linux2 -m copy -a 'content="this server is managed by ansible\n" dest=/etc/motd'
+  345  yum update
+  346  clear
+  347  df -h
+  348  yum install docker -y
+  349  yum install docker 
+  350  uname -a
+  351  dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+  352  yum install docker
+  353  dnf install docker-ce --nobest -y
+  354  systemctl start docker
+  355  systemctl enable docker
+  356  docker --version
+  357  docker images
+  358  docker pull
+  359  docker images ls
+  360  docker image pull
+  361  docker pull ubuntu
+  362  docker images ls
+  363  docker images
+  364  docker run ubuntu
+  365  docker images ls
+  366  clear
+  367  yum list docker
+  368  yum list docker*
+  369  rpm -qa | grep -i docker*
+  370  docker info
+  371  docker images
+  372  docker images -a
+  373  docker ps
+  374  docker ps -a
+  375  docker attach ubuntu
+  376  docker start ubuntu
+  377  docker start relaxed_taussig
+  378  docker attach relaxed_taussig
+  379  docker run -d relaxed_taussig 
+  380  docker run -d ubuntu
+  381  docker ps
+  382  docker ps -a
+  383  docker image list
+  384  docker ps
+  385  docker exec -it happy_spence /bin/bash
+  386  uname -a
+  387  df -h
+  388  docker ps
+  389  docker ps -a
+  390  docker version
+  391  docker images
+  392  docker --help
+  393  docker pull
+  394  docker --version
+  395  docker info
+  396  docker image list
+  397  docker image pull
+  398  docker search
+  399  docker search nginx
+  400  docker pull nginx
+  401  docker images list
+  402  docker ps
+  403  docker ps -a
+  404  docker list
+  405  docker --help
+  406  docker images
+  407  docker inspect
+  408  docker inspect --help
+  409  docker inspect nginx
+  410  docker inspect nginx | more
+  411  docker run nginx
+  412  docker ps
+  413  docker run -d nginx
+  414  docker attach vibrant_goldstine 
+  415  docker ps
+  416  docker run -d nginx
+  417  docker ps
+  418  docker exec -it happy_spence /bin/bash
+  419  ping linux
+  420  ps -ef | grep -i nsr
+  421  firefox &
+  422  nsrwatch
+  423  clear
+  424  mminfo -avot -c linux
+  425  mminfo -avot -c linux -t today
+  426  ps -ef | grep -i nsr
+  427  cd /nsr
+  428  ls
+  429  cd logs
+  430  ls
+  431  cd ..
+  432  cd applogs/
+  433  ls
+  434  cd ..
+  435  ls
+  436  cd res
+  437  ls
+  438  ls -ls
+  439  cd jobsdb
+  440  ls
+  441  clear
+  442  df -h
+  443  clear
+  444  ping www.google.com
+  445  git --version
+  446  git 
+  447  git config --global --list
+  448  cd
+  449  pwd
+  450  git init
+  451  git config --global --list
+  452  cd .git
+  453  ls -la
+  454  git config --global --list
+  455  git config --global user.name "kuldeep" user.email itsdeep1209@outlook.com
+  456  git config
+  457  git config --global
+  458  git config --global -int
+  459  ansible --version
+  460  ifconfig -a
+  461  ping 192.168.148.132
+  462  ping 192.168.241.132
+  463  cd
+  464  cd /nsr
+  465  ls
+  466  cd mm
+  467  ls
+  468  cd ..
+  469  cd res
+  470  ls
+  471  cd ..
+  472  ll
+  473  cd index
+  474  ll
+  475  mminfo -a
+  476  mminfo -m
+  477  nsrlmc
+  478  lmgrd
+  479  cd ..
+  480  ll
+  481  cd lic
+  482  ll
+  483  cd ..
+  484  cd rabbitmq/
+  485  ll
+  486  cd ..
+  487  cd run
+  488  ll
+  489  cd ..
+  490  ll
+  491  which mminfo
+  492  ps -ef 
+  493  ps -ef | grep -i fire
+  494  ps -ef | grep -i firefox
+  495  history
+  496  yum install ansibletower
+  497  ansible --version
+  498  clear
+  499  ifconfig
+  500  clear
+  501  ifconfig
+  502  root
+  503  ifconfig
+  504  ifcoclear
+  505  clear
+  506  ifconfig
+  507  yum install docker-ce -y
+  508  dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+  509   dnf install docker-ce --nobest -y
+  510  docker --version
+  511  yum install -y yum-utils
+  512  yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+  513  yum-config-manager --enable docker-ce-nightly
+  514  yum install docker-ce docker-ce-cli containerd.io
+  515  dnf repolist -v
+  516  dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+  517  dnf install docker-ce
+  518  docker --version
+  519  systemctl is-enabled docker
+  520  systemctl is-active docker
+  521  yum-config-manager --add-repo https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+  522  dnf repolist -v
+  523  cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+  524  [kubernetes]
+  525  name=Kubernetes
+  526  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-\$basearch
+  527  enabled=1
+  528  gpgcheck=1
+  529  repo_gpgcheck=1
+  530  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+  531  exclude=kubelet kubeadm kubectl
+  532  EOF
+  533  sudo setenforce 0
+  534  sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config
+  535  yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
+  536  vi install_master.sh
+  537  ll
+  538  chmod 777 install_master.sh
+  539  ./install_master.sh
+  540  systemctl disable firewalld
+  541  ./install_master.sh
+  542  systemctl status firewalld
+  543  systemctl stop firewalld
+  544  systemctl status firewalld
+  545  clear
+  546  ./install_master.sh
+  547  cat /etc/kubernetes/admin.conf
+  548  cd /etc/kubernetes/
+  549  ll
+  550  cd manifests/
+  551  ll
+  552  yum  install kubelet kubeadm -y
+  553  cd
+  554  yum install kubectl -y
+  555  kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt
+  556  systemctl enable kubelet.service
+  557  kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt
+  558  yum install -y yum-utils device-mapper-persistent-data lvm2
+  559  yum-config-manager --add-repo   https://download.docker.com/linux/centos/docker-ce.repo
+  560  yum update -y && yum install -y   containerd.io-1.2.13   docker-ce-19.03.11   docker-ce-cli-19.03.11
+  561  mkdir /etc/docker
+  562  cat > /etc/docker/daemon.json <<EOF
+  563  {
+  564    "exec-opts": ["native.cgroupdriver=systemd"],
+  565    "log-driver": "json-file",
+  566    "log-opts": {
+  567      "max-size": "100m"
+  568    },
+  569    "storage-driver": "overlay2",
+  570    "storage-opts": [
+  571      "overlay2.override_kernel_check=true"
+  572    ]
+  573  }
+  574  EOF
+  575  mkdir -p /etc/systemd/system/docker.service.d
+  576  systemctl daemon-reload
+  577  systemctl restart docker
+  578  systemctl enable docker
+  579  kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt
+  580  reboot
+  581  swapoff -a
+  582  kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt
+  583  kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt
+  584  clear
+  585  ll
+  586  cat cluster_initialized.txt 
+  587  mkdir /root/.kube
+  588  cp /etc/kubernetes/admin.conf /root/.kube/config
+  589  cd /etc
+  590  cd kubernetes/
+  591  ll
+  592  cd manifests/
+  593  ll
+  594  ls -la
+  595  cd ..
+  596  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  597  kubectl
+  598  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  599  sed -i --follow-symlinks 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+  600  dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+  601  dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+  602  dnf install docker-ce
+  603  systemctl enable docker
+  604  systemctl start docker
+  605  cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+  606  [kubernetes]
+  607  name=Kubernetes
+  608  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+  609  enabled=1
+  610  gpgcheck=1
+  611  repo_gpgcheck=1
+  612  gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+  613  EOF
+  614  dnf install kubeadm -y 
+  615  systemctl enable kubelet
+  616  systemctl start kubelet
+  617  swapoff -a
+  618  kubeadm init
+  619  mkdir -p $HOME/.kube
+  620  cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  621  chown $(id -u):$(id -g) $HOME/.kube/config
+  622  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  623  kubectl get nodes
+  624  systemctl restart kubelet.service
+  625  kubeadm token create --print-join-command
+  626  ifconfig
+  627  cat /etc/hosts
+  628  ifconfig
+  629  ping linux2
+  630  ssh linux2
+  631  ping linux2
+  632  ssh linux2
+  633  cat /etc/hosts
+  634  ifconfig
+  635  ping linux2
+  636  cat /etc/hosts
+  637  ssh linux2
+  638  kubectl get nodes
+  639  ssh linux2
+  640   export kubever=$(kubectl version | base64 | tr -d '\n')
+  641  kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$kubever
+  642  kubectl apply -f https://cloud.weave.works/k8s/net?k8s-version=$kubever
+  643  kubectl get nodes
+  644  exit
+  645  ls -la
+  646  history | grep -i git
+  647  git --version
+  648  git status
+  649  history >> kubernetes-insta.txt
